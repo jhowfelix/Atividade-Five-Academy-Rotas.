@@ -14,11 +14,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Usuario userJáLogadoPadrao = new Usuario("Jonathan", 12, 12);
+		Usuario userJaLogadoPadrao = new Usuario("Jonathan", 12, 12);
 		Scanner sc = new Scanner(System.in);
 		Menus menu = new Menus();
 		List<Usuario> listUsers = new ArrayList<Usuario>();
-		listUsers.add(userJáLogadoPadrao);
+		listUsers.add(userJaLogadoPadrao);
 		RotasDisponiveis rotas = new RotasDisponiveis();
 		loginUser login = new loginUser();
 		CadastraUsuario cadastro = new CadastraUsuario();
