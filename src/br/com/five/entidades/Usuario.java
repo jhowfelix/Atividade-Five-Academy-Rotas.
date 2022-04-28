@@ -56,7 +56,7 @@ public class Usuario {
 			System.out.println("Sem rotas reservadas");
 		} else {
 			for (int i = 0; i < rotasReservadas.size(); i++) {
-				System.out.println("*******Suas rotas reservadas são******* \n Rota:" + i + rotasReservadas.get(i));
+				System.out.println("*******Suas rotas reservadas são******* \n Rota: " + i + rotasReservadas.get(i));
 			}
 
 		}

@@ -56,6 +56,7 @@ public class Main {
 	}
 
 	public static void menuzao(int op1, Usuario user) {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		Menus menu = new Menus();
 	
@@ -89,7 +90,7 @@ public class Main {
 				menu.menuUser();
 				op1 = sc.nextShort();
 			}
-		sc.close();
+	
 		}
 	}
 }
