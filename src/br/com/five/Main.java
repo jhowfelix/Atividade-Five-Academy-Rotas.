@@ -14,9 +14,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		//
 		Usuario userJáLogadoPadrao = new Usuario("Jonathan", 12, 12);
-
 		Scanner sc = new Scanner(System.in);
 		Menus menu = new Menus();
 		List<Usuario> listUsers = new ArrayList<Usuario>();
@@ -60,7 +58,7 @@ public class Main {
 	public static void menuzao(int op1, Usuario user) {
 		Scanner sc = new Scanner(System.in);
 		Menus menu = new Menus();
-		List<Usuario> listUsers = new ArrayList<Usuario>();
+	
 		RotasDisponiveis rotas = new RotasDisponiveis();
 		while (op1 != 0) {
 			if (op1 == 1) {
@@ -91,6 +89,7 @@ public class Main {
 				menu.menuUser();
 				op1 = sc.nextShort();
 			}
+		sc.close();
 		}
 	}
 }

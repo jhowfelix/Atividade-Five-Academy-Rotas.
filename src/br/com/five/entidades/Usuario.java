@@ -43,6 +43,7 @@ public class Usuario {
 
 	public void reservaRota(int index, int ano, int mes, int dia) {
 		Rota rota =  rotas.escolherRota(index);
+		@SuppressWarnings("deprecation")
 		Date dataRota = new Date(ano, mes, dia);
 		rota.setData(dataRota);
 		rotasReservadas.add(rotas.escolherRota(index));
